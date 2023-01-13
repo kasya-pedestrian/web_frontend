@@ -218,7 +218,13 @@
 
 .footer .bottom a{
     font-size: 14px;
+    padding-right: 3px;
+    border-right: 1px solid #999;    
     color: #999;
+}
+
+.footer .bottom a:last-child{
+    border-right: 0;
 }
 
 .footer .bottom p{
