@@ -172,14 +172,61 @@
 }
 
 .footer .top li{
+    position: relative;
     float: left;
     margin-right: 245px;
     width: 195px;
     height: 58px;
-    background-color: pink;
+    line-height: 58px;
 }
 
 .footer .top li :last-child{
     margin-right: 0;
 }
 
+.footer .top li ::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 58px;
+    width: 58px;
+    background-image: url(../images/sprites.png);
+
+    vertical-align: middle;
+
+}
+
+.footer .top li span{
+    margin-left: 77px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer .top li:nth-child(2)::before{
+    
+    background-position: -64px 0;
+
+}
+
+.footer .bottom {
+    padding-top: 40px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .bottom a{
+    font-size: 14px;
+    padding-right: 3px;
+    border-right: 1px solid #999;    
+    color: #999;
+}
+
+.footer .bottom a:last-child{
+    border-right: 0;
+}
+
+.footer .bottom p{
+    margin-bottom: 20px;
+}
