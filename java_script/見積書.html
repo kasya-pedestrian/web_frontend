@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            height: 80px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        th{
+            padding: 5px 30px;
+        }
+        table,th,td{
+            border: solid 1px #000;
+        }
+    </style>
+</head>
+<body>
+    <h2>見積書</h2>
+
+    <script>
+        let name = prompt("商品の名前を入力してください：")
+        let price = +prompt("商品の価格を入力してください：")
+        let number = +prompt("商品の数値を入力してください：")
+        let total = price * number
+        document.write(`
+        <table>
+        <tr>
+            <th>商品</th>
+            <th>価格</th>
+            <th>数量</th>
+            <th>合計金額</th>
+            <th>割引項目</th>
+        </tr>
+        <tr>
+            <td>${name}</td>
+            <td>${price}</td>
+            <td>${number}</td>
+            <td>${total}</td>
+            <td>無し</td>
+        </tr>
+    </table>
+        `)
+    </script>
+</body>
+</html>
