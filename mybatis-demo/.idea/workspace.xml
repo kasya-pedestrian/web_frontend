@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="378238a9-cdd9-403b-8c1d-143a8f9530e4" name="Default Changelist" comment="" />
+    <list default="true" id="378238a9-cdd9-403b-8c1d-143a8f9530e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../jdbc-demo/jdbc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +52,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/li/Desktop/web_frontend/mybatis-demo"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/li/Desktop/Springboot"
   }
 }]]></component>
   <component name="RecentsManager">
