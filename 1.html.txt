@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>简单前端网页</title>
+  <!-- 可以在此处添加CSS样式或链接外部样式表 -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>欢迎来到我的简单网页！</h1>
+  <p>这是一个简单的前端网页，包括一些基本的HTML标签，如标题、段落和超链接。你可以通过修改HTML和CSS代码来自定义页面样式。</p>
+  <p>想了解更多关于HTML和CSS的知识，请访问 <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>。</p>
+</body>
+</html>
